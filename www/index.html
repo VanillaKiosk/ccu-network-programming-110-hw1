@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- 
+    Design by M.H. Hsieh in June 2020.
+    Build in 125% scaling environment.
+
+    To PDTAs:
+
+    If you can't see the footer, please disable the bookmark bar of your browser or change system text scaling to 100%.
+    If there isn't enough height, footer will automatically be hidden in order to get better view.
+
+    EDUCATIONAL PURPOSE ONLY:
+
+    This page is built for CCU Program Design HW9,
+    Do NOT use for other purpose without permission, thanks. (Because the usage of the music in this page is not licensed.)
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="assets/favicon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Cutive&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="assets/style.css" rel="stylesheet" >
+        <title>About | M.H. Hsieh</title>
+        <script type="text/javascript" src="assets/script.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <div class="topbar" style="height: 103px;">
+            <span class="title" onmousedown="changeTitleDown()" onmouseup="changeTitleUp()" onselectstart="return false;" >
+                <span id="dollarSign" style="color: #26D037; display: inline;">$ </span><span id="command" style="color: #FFFFFF;">whoami</span>
+            </span>
+        </div>
+        <div class="content">
+            <div class="profile">
+                <div class="avatar">
+                    <img src="assets/avatar.jpg" class="avatarImg">
+                </div>
+                <div style="height: 6px;"></div>
+                <span class="name">M.H. Hsieh</span>
+                <div style="height: 6px;"></div>
+                <div class="location" onclick="alert('哇嗚~ 你找到整個頁面中唯一有中文的地方了呢!!! 🥳')">
+                        <svg style="vertical-align: middle; fill: #9E9E9E;" enable-background="new 0 0 512 512" height="21" width="21" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><g><path d="m407.579 87.677c-31.073-53.624-86.265-86.385-147.64-87.637-2.62-.054-5.257-.054-7.878 0-61.374 1.252-116.566 34.013-147.64 87.637-31.762 54.812-32.631 120.652-2.325 176.123l126.963 232.387c.057.103.114.206.173.308 5.586 9.709 15.593 15.505 26.77 15.505 11.176 0 21.183-5.797 26.768-15.505.059-.102.116-.205.173-.308l126.963-232.387c30.304-55.471 29.435-121.311-2.327-176.123zm-151.579 144.323c-39.701 0-72-32.299-72-72s32.299-72 72-72 72 32.299 72 72-32.298 72-72 72z"/></g></svg>
+                        <span style="vertical-align: middle; font-size: 14px; font-weight: 500;">Chiayi, Taiwan(R.O.C.)</span>
+                </div>
+                <div style="height: 80px;"></div>
+                <div class="pro">
+                    <span style="font-size: 24px; font-weight: 700;">Pro</span><br>
+                    <span style="font-size: 18px; padding-left: 13px;">C、JavaScript、HTML、</span><br>
+                    <span style="font-size: 18px; padding-left: 13px;">Just、Kidding</span><br>
+                </div>
+                <div style="height: 10px;"></div>
+            </div>
+            <div class="info">
+                <div class="card">
+                    <div id="about" class="aboutShow" style="display: block;">
+                        <span style="font-size: 36px; font-weight: 700; letter-spacing: 2px;">About</span>
+                        <div style="height: 30px;"></div>
+                        <span style="font-size: 24px; font-weight: 300; letter-spacing: 1px; line-height: 43px;">
+                            • Studying CSIE @ National Chung Cheng University<br>
+                            • Developer of <a href="https://play.google.com/store/apps/details?id=io.csie.firecodev.ccutoolbox" target="_blank" style="color: #000000; text-decoration: none; font-weight: 400; cursor: pointer;">CCU Toolbox</a><br>
+                            • Intern Net Admin in CCU CNA<br>
+                            <br>
+                            <a href="https://www.facebook.com/" target="_blank" class="socialLogoLink" title="Facebook"><img src="assets/f_logo_RGB-Hex-Blue.png" class="socialLogo"></a>
+                            <a href="https://github.com/" target="_blank" class="socialLogoLink" title="GitHub"><img src="assets/GitHub-Mark-64px.png" class="socialLogo"></a>
+                            <a href="https://twitter.com/" target="_blank" class="socialLogoLink" title="Twitter"><img src="assets/Twitter_Social_Icon_Circle_Color.png" class="socialLogo"></a>
+                            <a href="https://www.youtube.com/" target="_blank" class="socialLogoLink" title="YouTube"><img src="assets/youtube_social_circle_red.png" class="socialLogo"></a>
+                            <a href="https://www.linkedin.com/" target="_blank" class="socialLogoLink" title="LinkedIn"><img src="assets/LI-In-Bug.png" class="socialLogo"></a>
+                        </span>
+                    </div>
+                    <div id="contact" class="contactHidden" style="display: none;">
+                        <span style="font-size: 36px; font-weight: 700; letter-spacing: 2px;">Contact Me</span>
+                        <div style="height: 30px;"></div>
+                        <table style="border: none; font-size: 24px; font-weight: 300; letter-spacing: 1px;">
+                            <tr>
+                                <td style="font-weight: 600; width: 110px; height: 40px;"><span style="padding-left: 3px;">E-mail</span></td>
+                                <td><a href="mailto:hsieh2000@csie.io" style="color: #000000">hsieh2000@csie.io</a></td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight: 600; width: 110px; height: 40px;"><span style="padding-left: 3px;">Phone</span></td>
+                                <td>0987654321</td>
+                            </tr>
+                        </table>
+                        <span style="font-size: 24px; font-weight: 300; letter-spacing: 1px; line-height: 43px;">
+                            or
+                        </span>
+                        <div style="height: 17px;"></div>
+                        <form method="POST" action="/imagetest.html" enctype="multipart/form-data">
+                            <table style="border: none;">
+                                <tr>
+                                    <td style="width: 240px;"><input name="file1" class="infoInput" type="file" style="width: 220px;"></td>
+                                    <td style="width: 240px;"><input name="file2" class="infoInput" type="file" style="width: 220px;"></td>
+                                    <td><input class="send" type="submit" value="Send"></td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                    <div class="cardButtons">
+                        <button type="button" class="theButton" id="previousButton" style="margin-right: 10px; visibility: hidden;" onclick="showAbout()">←</button>
+                        <button type="button" class="theButton" id="nextButton" style="visibility: visible;" onclick="showContact()">→</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <span>Copyright © 2020 M.H. Hsieh. Font <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>. Photo <a href="https://unsplash.com/photos/DHMlx0Osvg8" target="_blank">Unsplash</a>. Music <a href="https://www.youtube.com/watch?v=5_E_y1AWAfc" target="_blank">Undertale</a>.</span>
+        </div>
+    </body>
+</html>

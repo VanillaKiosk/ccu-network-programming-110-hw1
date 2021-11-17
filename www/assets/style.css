@@ -1,0 +1,280 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+html {
+    text-size-adjust: none;
+    height: 100%;
+    min-width: 1460px;
+}
+
+body {
+    margin: 0;
+    padding-bottom: 50px;
+    min-height: 100%;
+    background-color: #000000;
+    background-image: url("osman-rana-DHMlx0Osvg8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.topbar {
+    padding-left: 129px;
+    padding-top: 28px;
+    width: 100%;
+    background-color: #3E3E3E;
+}
+
+.title {
+    width: fit-content;
+    font-size: 36px;
+    font-family: Cutive;
+    cursor: help;
+}
+
+#audioControl {
+    margin-right: 80px;
+    padding: 3px;
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    color: #FFFFFF;
+    font-size: 30px;
+    border-radius: 50%;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.content {
+    padding-left: 108px;
+    padding-right: 108px;
+    width: 100%;
+}
+
+.profile {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 362px;
+    background-color: #FFFFFF;
+    text-align: center;
+    display: inline-block;
+}
+
+.avatar {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatarImg {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transform: scale(1.0);
+    transition: all .1s;
+}
+
+.avatarImg:hover {
+    transform: scale(1.2);
+    transition: all .1s;
+}
+
+.name {
+    font-size: 36px;
+    font-family: Roboto;
+    color: #000000;
+    letter-spacing: 6px;
+}
+
+.location {
+    height: 21px;
+    text-align: left;
+    color: #9E9E9E;
+    font-family: Montserrat;
+}
+
+.pro {
+    line-height: 30px;
+    text-align: left;
+    color: #000000;
+    font-family: Montserrat;
+}
+
+.info {
+    margin-top: 115px;
+    margin-left: 80px;
+    position: absolute;
+    display: inline-block;
+}
+
+.card {
+    background-color: #FFFFFF;
+    width: 797px;
+    height: 419px;
+    padding-top: 43px;
+    padding-left: 65px;
+    position: relative;
+}
+
+.socialLogoLink {
+    margin: 10px;
+}
+
+.socialLogo {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border: 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.aboutShow {
+    color: #000000;
+    font-family: 'Open Sans';
+    transition: all .2s;
+    opacity: 1;
+}
+
+.contactShow {
+    color: #000000;
+    font-family: 'Open Sans';
+    transition: all .2s;
+    opacity: 1;
+}
+
+.aboutHidden {
+    color: #000000;
+    font-family: 'Open Sans';
+    transition: all .2s;
+    opacity: 0;
+}
+
+.contactHidden {
+    color: #000000;
+    font-family: 'Open Sans';
+    transition: all .2s;
+    opacity: 0;
+}
+
+.infoInput {
+    height: 40px;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 2px;
+    padding-left: 7px;
+    font-size: 18px;
+    font-family: 'Open Sans';
+}
+
+.infoInput::placeholder {
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+.send {
+    width: 83px;
+    height: 37px;
+    background-color: #9D836A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    letter-spacing: 1px;
+    transition: all .1s;
+    filter: none;
+    outline: none;
+}
+
+.send:hover {
+    background-color: #B4997F;
+    border-radius: 3px;
+    transition: all .1s;
+    filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.5))
+}
+
+.send:active {
+    background-color: #9D836A;
+    border-radius: 3px;
+    transition: all .1s;
+    filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5))
+}
+
+.cardButtons {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 37px;
+    margin-bottom: 27px;
+}
+
+.theButton {
+    width: 50px;
+    height: 50px;
+    background-color: #C69Aff;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Noto Sans TC';
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    transition: all .1s;
+    filter: none;
+    outline: none;
+}
+
+.theButton:hover {
+    transition: all .1s;
+    filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.5))
+}
+
+.theButton:active {
+    transition: all .1s;
+    background-color: #B073FF;
+    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.5))
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #303030;
+    color: #FFFFFF;
+    text-align: center;
+    border-width: 2px 0 0 0;
+    border-style: solid;
+    border-color: #FFFFFF;
+    line-height: 45px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* to get better view experience, it will automatically hide footer when the height is too short */
+@media only screen and (max-height: 758px) {
+    .footer {
+        display: none;
+    }
+}
+
+.footer a {
+    color: #FFFFFF;
+}
